@@ -15,7 +15,7 @@ function App() {
     <Router>
       <Routes>
             <Route path="/" component={<Renting />} />
-            <Route path="/renting" component={Renting} />
+            <Route path="/test" component={Renting} />
             <Route path="/payment" component={Payment} />
             <Route path="/contact" component={Contact} />
             <Route path="/login" component={Login} />
